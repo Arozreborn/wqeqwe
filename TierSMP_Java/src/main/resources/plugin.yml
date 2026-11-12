@@ -1,0 +1,13 @@
+name: TierSMP
+version: 1.0.0
+main: com.tiersmp.TierSMP
+api-version: '1.21'
+description: Tier SMP - ranks, steals, perks and admin GUI
+commands:
+  tier:
+    description: Tier SMP admin menu (/tier stick gives the admin rod)
+    usage: /tier [stick]
+permissions:
+  tiersmp.admin:
+    description: Use the Tier SMP admin menu
+    default: op
